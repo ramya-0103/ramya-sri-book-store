@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comfort Learning</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1 class="logo">📘 Comfort<span style="color: orange;">Learning</span></h1>
+    <div class="cart-icon">🛒 <span class="cart-count">0</span></div>
+  </nav>
+
+  <ul class="nav-links">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">COURSES</a></li>
+    <li><a href="#">PRICINGS</a></li>
+    <li><a href="#">ABOUT US</a></li>
+  </ul>
+  <!-- ✅ Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Find Your Favorite Course Here!</h1>
+      <a href="#products" class="hero-btn">SHOP NOW</a>
+    </div>
+  </section>
+
+  <section class="products-container" id="products">
+    <h2>COURSES WE OFFER!!</h2>
+    <div class="products"></div>
+  </section>
+
+  <!-- ✅ Cart Sidebar -->
+  <aside class="cart-sidebar">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <span class="close-cart">×</span>
+    </div>
+    <div class="cart-items"></div>
+    <div class="cart-footer">
+      <p>Total: $<span class="cart-total">0.00</span></p>
+      <button class="checkout">Proceed</button>
+      <button class="clear-cart">Clear Cart</button>
+    </div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
